@@ -31,3 +31,10 @@ export const LineTwo = styled.div`
     border-radius: 20px;
     padding: 20px;
 `
+
+export const GenderTextContainer = styled.div`
+    display: flex;
+    gap: 50px;
+    margin-left: 35px;
+    margin-top: -20px;
+`

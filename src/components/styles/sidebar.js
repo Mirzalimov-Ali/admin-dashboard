@@ -9,7 +9,6 @@ export const Container = styled.div`
     width: 15%;
     height: 100%;
     position: fixed;
-    /* background: linear-gradient(white, skyblue); */
     background: #000033;
     color: white;
     z-index: 2;
@@ -36,14 +35,13 @@ export const P = styled.p`
 `
 
 export const HeaderContainer = styled.div`
-    /* background: linear-gradient(to right, white, skyblue); */
     background: #000033;
     background-attachment: fixed;
     width: 100%;
     height: 70px;
-    padding-left: 30%;
     display: flex;
     align-items: center;
     z-index: 1;
     position: fixed;
+    /* gap: 300px; */
 `

@@ -24,14 +24,14 @@ function Header() {
   );
   return (
     <HeaderContainer>
-      <div>
+      <div style={{flex: "1"}}>
           <Button onClick={toggleDrawer(true)}><MenuIcon /></Button>
           <Drawer open={open} onClose={toggleDrawer(false)}>
             {DrawerList}
           </Drawer>
       </div>
-      <div>
-        <TextField id="outlined-basic" label="Search" variant="filled" sx={{width: "200%", bgcolor: "white", borderRadius: "10px"}}/>
+      <div style={{flex: "4"}}>
+        <TextField id="outlined-basic" label="Search" variant="filled" sx={{width: "32.6%", bgcolor: "white", borderRadius: "10px"}}/>
       </div>
       
     </HeaderContainer>
